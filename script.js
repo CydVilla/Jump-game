@@ -19,6 +19,6 @@ const checkDead = setInterval(function () {
   if (blockLeft < 20 && blockLeft > 0 && characterTop >= 130) {
     block.style.animation = "none";
     block.style.display = "none";
-    alert("Seth, are you going to respond?");
+    alert("I love you");
   }
 }, 10);
